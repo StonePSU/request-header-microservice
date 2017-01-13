@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Request Header Microservice</title>
+        <style type="text/css">
+            main {
+                max-width: 60%;
+                margin: 0 auto;
+            }
+        </style>
+        <script type="text/javascript">
+            function setURL() {
+                var oldLoc = window.location;
+                window.location=oldLoc +"api/aboutme";
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <h1>Request Header Microservice</h1>
+            <h3>By Matt Krell</h3>
+            <p><strong>User Story:</strong> Get the IP Address, language and operating system of the current user.</p><p>Click the link below to display your information.</p>
+            <a href="javascript:setURL();">About me</a>
+        </main>
+    </body>
+</html>

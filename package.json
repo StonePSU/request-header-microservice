@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/StonePSU/request-header-microservice/issues"
   },
-  "homepage": "https://github.com/StonePSU/request-header-microservice#readme"
+  "homepage": "https://github.com/StonePSU/request-header-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
